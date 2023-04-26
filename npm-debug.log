@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/bin/node',
+1 verbose cli   '/Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   'webpack',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version',
+1 verbose cli   'time' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 silly mapToRegistry name webpack
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://schoology.jfrog.io/schoology/api/npm/npm/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'webpack',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   name: 'webpack',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://schoology.jfrog.io/schoology/api/npm/npm/webpack
+9 verbose request uri https://schoology.jfrog.io/schoology/api/npm/npm/webpack
+10 verbose request always-auth set; sending authorization
+11 info attempt registry request try #1 at 7:15:20 PM
+12 info retry will retry, error on last attempt: Error: This request requires auth credentials. Run `npm login` and repeat the request.
+13 info attempt registry request try #2 at 7:15:30 PM
+14 info retry will retry, error on last attempt: Error: This request requires auth credentials. Run `npm login` and repeat the request.
+15 info attempt registry request try #3 at 7:16:30 PM
+16 verbose stack Error: This request requires auth credentials. Run `npm login` and repeat the request.
+16 verbose stack     at CachingRegistryClient.authify (/Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/npm-registry-client/lib/authify.js:17:14)
+16 verbose stack     at CachingRegistryClient.makeRequest (/Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:103:17)
+16 verbose stack     at /Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:66:17
+16 verbose stack     at RetryOperation._fn (/Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/npm-registry-client/lib/attempt.js:18:5)
+16 verbose stack     at null._onTimeout (/Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/retry/lib/retry_operation.js:49:10)
+16 verbose stack     at Timer.listOnTimeout (timers.js:92:15)
+17 verbose cwd /Users/Prasanna.Tg/React/ecomm/products
+18 error Darwin 22.4.0
+19 error argv "/Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/bin/node" "/Users/Prasanna.Tg/.nvm/versions/node/v4.4.7/bin/npm" "view" "--json" "webpack" "description" "dist-tags.latest" "homepage" "version" "time"
+20 error node v4.4.7
+21 error npm  v2.15.8
+22 error This request requires auth credentials. Run `npm login` and repeat the request.
+23 error If you need help, you may report this error at:
+23 error     <https://github.com/npm/npm/issues>
+24 verbose exit [ 1, true ]
